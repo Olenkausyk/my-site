@@ -5,31 +5,71 @@
     <title>Салон краси "Венеція"</title>
 </head>
     <body>
-        <header>
-            <!-- Логотип зліва -->
-            <h1>Салон краси "Венеція"</h1>
-            <!-- меню зправа на одній частині там де лого-->
-            <nav>
-                <ul>
-                    <li><a href="index.html">Головна</a></li>
-                    <li><a href="price.html">Послуги та ціни</a></li>
-                    <li><a href="gallery.html">Галерея</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <!-- Картинка на ній текст -->
-            <h2>Про нас</h2>
-            <p></p>
+        <div class="container">
+            <header>
+            <!-- меню зправа-->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Головна</a></li>
+                        <li><a href="price.html">Послуги та ціни</a></li>
+                        <li><a href="gallery.html">Галерея</a></li>
+                    </ul>
+                </nav>
+                <div id="logo">
+                    <h1>Салон краси "Венеція"</h1>
+                </div>
+            </header>
+            <main>
+            <div class="about">
+                <h2>Про нас</h2>
+                    <p>Салон краси ”Венеція” - один із найкращих салонів у Львові. 
+        Тут спеціалісти зроблять Вам гарну зачіску, оригінальний манікюр, make-up, які придадуть Вам чарівності і впевненості у собі. 
+        З нашого салону кожна жінка виходить, відчуваючи себе справжньою елегантною леді.
+        Салон використовує тільки спеціальну професійну косметику, та спеціалним підходом до кожного клієнта.</p>
+            </div>
             
             <!-- div в якому знаходитемиться форма для заповнення і карта-->
-                <div>
-                    <!--форма --> 
-                    <!--карта  -->
+                <div class="contacts">
+                    <div class="address_shedule">
+                        <h2>Контакти</h2>
+                            <h3>Як нас знайти</h3>
+                                <p> м. Львів,
+                                    площа Ринок, 13
+                                    +38 (032) 243-34-59
+                                    +38 (067) 751-50-33</p>
+                            <h3>Години роботи</h3>
+                                <p>Понеділок - субота: 10:00 - 19:00
+                                Неділя - вихідний день</p>
+                    </div>
+                    <div class="map">
+                        <!-- КАРТА -->
+                    </div>
+                    <div class="message">
+                        <!-- ВСТАВИТИ ПОШТУ-->
+                        <form action="" method="get">
+                            <fieldset class="form">
+                                <legend>Напишіть нам!</legend>
+                                    <p>Ім'я</p>
+                                        <input type="text" name="name"/><br>
+                                    <p>Прізвище</p>
+                                        <input type="text" name="surname"/><br>
+                                    <p>Контактний номер</p>
+                                        <input type="number" name="number"/><br>
+                                    <p>Ваше повідомлення</p>
+                                        <input type="text" name="message"/><br>
+                                        <input type="submit" value="Відправити"/><br>
+                            </fieldset>
+                        </form>
+                        <div class="girl_phone">
+                        <img src="images/phone.jpg" alt="Phone">
+                    </div>
                 </div>
         </main>
         <footer>
             <!--в футері зправа контактна інфа, знизу @2016 права захищені-->
+            <p>©2016 Салон краси "Венеція"</p>
+            <p><a href="https://www.facebook.com/olena.zhdan">Olena Usyk</a></p>
         </footer>
+        </div>
     </body>
 </html>
