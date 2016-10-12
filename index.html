@@ -1,15 +1,15 @@
 <!doctype html>
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/normalize.css" type="text/css" /> 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="css/main.css" type="text/css" />
-    <!-- <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
-    <title>Салон краси "Венеція"</title>
-</head>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/normalize.css" type="text/css" /> 
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="css/main.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet"/>
+        <title>Салон краси "Венеція"</title>
+    </head>
     <body>
-        <div class="container">
+        <div class="container" clearfix>
             <header>
                 <nav>
                     <ul>
@@ -18,23 +18,25 @@
                         <li><a class="photo" href="gallery.html">Галерея</a></li>
                     </ul>
                 </nav>
-                <div id="logo">
-                    <h1>Салон краси "Венеція"</h1>
-                    <!--
-                    <img src="images/logo.jpg"></img> -->
+                <div id="logo" clearfix>
+                    <div class="logo">
+                        <h1>Салон краси "Венеція"</h1></div>
+                    <div class="logo_pic">
+                        <img src="images/logo1.jpg" alt="logo" width="600"></div>                 
                 </div>
             </header>
             <main>
-            <div class="about">
-                <h2>Про нас</h2>
-                    <p>Салон краси ”Венеція” - один із найкращих салонів у Львові. 
-        Тут спеціалісти зроблять Вам гарну зачіску, оригінальний манікюр, make-up, які придадуть Вам чарівності і впевненості у собі. 
-        З нашого салону кожна жінка виходить, відчуваючи себе справжньою елегантною леді.
-        Салон використовує тільки спеціальну професійну косметику, та спеціалним підходом до кожного клієнта.</p>
-            </div>
-            
+                <div class="main_section" clearfix>
+                        <h2>Про нас</h2>
+                            <p>Салон краси ”Венеція” - один із найкращих салонів у Львові. 
+                Тут спеціалісти зроблять Вам гарну зачіску, оригінальний манікюр, make-up, які придадуть Вам чарівності і впевненості у собі. 
+                З нашого салону кожна жінка виходить, відчуваючи себе справжньою елегантною леді.
+                Салон використовує тільки спеціальну професійну косметику, та спеціалним підходом до кожного клієнта.</p>
+
+
             <!-- div в якому знаходитемиться форма для заповнення і карта-->
-                <div class="contacts">
+            
+                <div class="contacts" clearfix>
                     <div class="address_shedule">
                         <h2>Контакти</h2>
                             <h3>Як нас знайти</h3>
@@ -44,12 +46,12 @@
                                     +38 (067) 751-50-33</p>
                             <h3>Години роботи</h3>
                                 <p>Понеділок - субота: 10:00 - 19:00
-                                Неділя - вихідний день</p>
+                                    Неділя - вихідний день</p>
                     </div>
                     <div class="map">
                         <!-- КАРТА -->
                     </div>
-                    <div class="message">
+                    <div class="message" clearfix>
                         <!-- ВСТАВИТИ ПОШТУ-->
                         <form action="" method="get">
                             <fieldset class="form">
@@ -66,14 +68,16 @@
                             </fieldset>
                         </form>
                         <div class="girl_phone">
-                        <img src="images/phone.jpg" alt="Phone">
+                        <img src="images/phone.jpg" alt="Phone" width="200">
                     </div>
                 </div>
+            </div>
+                </div>
         </main>
-        <footer>
-            <p>©2016 Салон краси "Венеція"</p>
-            <p><a href="https://www.facebook.com/olena.zhdan">Olena Usyk</a></p>
-        </footer>
+            <footer clearfix>
+                <p>©2016 Салон краси "Венеція"</p>
+                <p><a href="https://www.facebook.com/olena.zhdan">Olena Usyk</a></p>
+            </footer>
         </div>
     </body>
 </html>

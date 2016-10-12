@@ -1,10 +1,35 @@
 body {
-    /*font-family: 'Play', sans-serif;*/
-   font-family: 'Jura', sans-serif;
-   margin: 0 auto;
-   text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Jura', sans-serif;
+    color: grey;
+   /* background-color: #F4F4F4; */
 }
-
+.container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 li {
     list-style-type: none;
+}
+#logo, nav {
+    border: 1px solid grey;
+}
+.logo_pic {
+    position: relative;
+    width: 600px;
+}
+h1 {
+    position: absolute;
+    width: 300px;
+    right: 350px;
+    top: 200px;
+    font-size: 30px;
+    line-height: 50px;
+} 
+.clearfix {
+    overflow: auto;
 }
