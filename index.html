@@ -40,30 +40,32 @@
                     <div class="address_shedule">
                         <h2>Контакти</h2>
                             <h3>Як нас знайти</h3>
-                                <p> м. Львів,
-                                    площа Ринок, 13
-                                    +38 (032) 243-34-59
-                                    +38 (067) 751-50-33</p>
+                                <p> м. Львів,</p>
+                                <p>площа Ринок, 13 </p>
+                                <p>+38 (032) 243-34-59 </p>
+                                <p>+38 (067) 751-50-33</p>
                             <h3>Години роботи</h3>
-                                <p>Понеділок - субота: 10:00 - 19:00
-                                    Неділя - вихідний день</p>
+                                <p>Понеділок - субота: 10:00 - 19:00</p>
+                                <p>Неділя - вихідний день</p>
                     </div>
                     <div class="map">
                         <!-- КАРТА -->
                     </div>
                     <div class="message" clearfix>
                         <!-- ВСТАВИТИ ПОШТУ-->
+                        
                         <form action="" method="get">
                             <fieldset class="form">
                                 <legend>Напишіть нам!</legend>
                                     <p>Ім'я</p>
-                                        <input type="text" name="name"/><br>
+                                        <input type="text" name="name" required/><br>
                                     <p>Прізвище</p>
-                                        <input type="text" name="surname"/><br>
+                                        <input type="text" name="surname" required/><br>
                                     <p>Контактний номер</p>
-                                        <input type="number" name="number"/><br>
+                                        <input type="telephone" name="telephone" required/><br>
                                     <p>Ваше повідомлення</p>
-                                        <input type="text" name="message"/><br>
+                                        <textarea name="message" id="message"/></textarea>
+                                        <br>
                                         <input type="submit" value="Відправити"/><br>
                             </fieldset>
                         </form>

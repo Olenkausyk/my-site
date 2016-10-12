@@ -1,3 +1,18 @@
+.price {
+    border: 1px solid grey;
+}
+.wrapper_service {
+    padding: 10px 70px;
+    text-align: left;
+    line-height: 2.5em;
+    font-size: 20px;
+}
+h2 {
+    margin-top: 50px;
+    color: #C0B283;
+    font-weight: bold;
+    font-size: 30px;
+}
 .service {
-    background-color: #C0B283;
+    background-color: #DCD0C0;
 }
