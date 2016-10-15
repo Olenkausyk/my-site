@@ -1,19 +1,25 @@
 .main_section {
+    float: left;
     border: 1px solid grey;
     font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
     line-height: 30px;
 }
-h2 {
+.about {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h2, h3 {
     margin-top: 50px;
     color: #C0B283;
     font-weight: bold;
 }
 .form {
-    margin-top: 80px;
+    margin: 30px auto;
     width: 400px;
 }
+
 input[type=submit]{
     margin-top: 20px;
     padding: 15px;

@@ -2,41 +2,38 @@
 <html lang="uk">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Салон краси "Венеція"</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/normalize.css" type="text/css" /> 
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" href="css/main.css" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet"/>
-        <title>Салон краси "Венеція"</title>
     </head>
     <body>
-        <div class="container" clearfix>
-            <header>
-                <nav>
-                    <ul>
-                        <li><a class="main" href="index.html">Головна</a></li>
-                        <li><a class="priceandservice" href="price.html">Послуги та ціни</a></li>
-                        <li><a class="photo" href="gallery.html">Галерея</a></li>
+        <div class="container col-md-auto col-sm-auto col-lg-auto">
+            <header class="mainheader">
+                <nav class="header_nav">
+                    <ul class="clearfix">
+                        <li><a class="menu" href="index.html">Головна</a></li>
+                        <li><a class="menu" id="price" href="price.html">Послуги та ціни</a></li>
+                        <li><a class="menu" href="gallery.html">Галерея</a></li>
                     </ul>
                 </nav>
-                <div id="logo" clearfix>
+                <div id="logo" class="clearfix">
                     <div class="logo">
                         <h1>Салон краси "Венеція"</h1></div>
                     <div class="logo_pic">
                         <img src="images/logo1.jpg" alt="logo" width="600"></div>                 
                 </div>
             </header>
-            <main>
-                <div class="main_section" clearfix>
+                <main class="clearfix">
+                    <div class="main_section">
                         <h2>Про нас</h2>
                             <p>Салон краси ”Венеція” - один із найкращих салонів у Львові. 
                 Тут спеціалісти зроблять Вам гарну зачіску, оригінальний манікюр, make-up, які придадуть Вам чарівності і впевненості у собі. 
                 З нашого салону кожна жінка виходить, відчуваючи себе справжньою елегантною леді.
                 Салон використовує тільки спеціальну професійну косметику, та спеціалним підходом до кожного клієнта.</p>
-
-
-            <!-- div в якому знаходитемиться форма для заповнення і карта-->
-            
-                <div class="contacts" clearfix>
                     <div class="address_shedule">
                         <h2>Контакти</h2>
                             <h3>Як нас знайти</h3>
@@ -47,14 +44,9 @@
                             <h3>Години роботи</h3>
                                 <p>Понеділок - субота: 10:00 - 19:00</p>
                                 <p>Неділя - вихідний день</p>
-                    </div>
-                    <div class="map">
-                        <!-- КАРТА -->
-                    </div>
-                    <div class="message" clearfix>
-                        <!-- ВСТАВИТИ ПОШТУ-->
-                        
-                        <form action="" method="get">
+                        </div>
+                        <div class="form">
+                        <form>
                             <fieldset class="form">
                                 <legend>Напишіть нам!</legend>
                                     <p>Ім'я</p>
@@ -62,24 +54,24 @@
                                     <p>Прізвище</p>
                                         <input type="text" name="surname" required/><br>
                                     <p>Контактний номер</p>
-                                        <input type="telephone" name="telephone" required/><br>
+                                        <input type="tel" name="telephone" required/><br>
                                     <p>Ваше повідомлення</p>
-                                        <textarea name="message" id="message"/></textarea>
+                                        <textarea name="message" id="message"></textarea>
                                         <br>
                                         <input type="submit" value="Відправити"/><br>
                             </fieldset>
                         </form>
-                        <div class="girl_phone">
-                        <img src="images/phone.jpg" alt="Phone" width="200">
                     </div>
                 </div>
-            </div>
-                </div>
         </main>
-            <footer clearfix>
-                <p>©2016 Салон краси "Венеція"</p>
-                <p><a href="https://www.facebook.com/olena.zhdan">Olena Usyk</a></p>
+            <footer class="clearfix">
+                <div class="clear">
+                    <p>©2016 Салон краси "Венеція"</p>
+                    <p><a href="https://www.facebook.com/olena.zhdan">Olena Usyk</a></p>
+                </div>
             </footer>
         </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
 </html>

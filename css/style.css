@@ -1,33 +1,63 @@
 body {
-    max-width: 900px;
-    margin: 0 auto;
     font-family: 'Jura', sans-serif;
     font-weight: bold;
     color: #373737;
     background-color: #F4F4F4; 
 }
 .container {
+    max-width: 100%;
+    margin: 0 auto;
     text-align: center;
     background: white;
+    opacity: 0.8;
+}
+ul {
+    margin: 0 auto;
+    padding: 0px;
+    width: 600px;
+}
+.menu {
+    text-decoration: none;
+    background-color: #F4F4F4;
+    color: black;
+    font-size: 20px;
 }
 li {
     list-style-type: none;
+    float: left;
+    width: 200px;
 }
-#logo, nav {
-    border: 1px solid grey;
-}
-.logo_pic {
+#logo {
+    width: 100%;
     position: relative;
-    width: 600px;
+    float: left;
+    border: none;
 }
-h1 {
+.logo {
     position: absolute;
-    width: 300px;
-    right: 350px;
-    top: 150px;
-    font-size: 40px;
-    line-height: 50px;
-} 
-.clearfix {
-    overflow: auto;
+    z-index: 10;
+    width: 30%;
+    right: 0;
+    top: 20px;
+    font-size: 20px;
 }
+.clearfix:before,
+.clearfix:after {
+    content: " "; 
+    display: table; 
+}
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    zoom: 1;
+}
+.clear {
+    clear: both;
+}
+

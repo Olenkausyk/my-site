@@ -2,23 +2,25 @@
 <html lang="uk">
     <head>
         <meta charset="UTF-8">
+        <title>Салон краси "Венеція"</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/normalize.css" type="text/css" /> 
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" href="css/price/price.css" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet"/>
-        <title>Салон краси "Венеція"</title>
     </head>
     <body>
-        <div class="container" clearfix>
-            <header>
-                <nav>
-                    <ul>
-                        <li><a class="main" href="index.html">Головна</a></li>
-                        <li><a class="priceandservice" href="price.html">Послуги та ціни</a></li>
-                        <li><a class="photo" href="gallery.html">Галерея</a></li>
+        <div class="container col-md-auto col-sm-auto col-lg-auto">
+            <header class="mainheader">
+                <nav class="header_nav">
+                    <ul class="clearfix">
+                        <li><a class="menu" href="index.html">Головна</a></li>
+                        <li><a class="menu" id="price" href="price.html">Послуги та ціни</a></li>
+                        <li><a class="menu" href="gallery.html">Галерея</a></li>
                     </ul>
                 </nav>
-                <div id="logo" clearfix>
+                <div id="logo" class="clearfix">
                     <div class="logo">
                         <h1>Салон краси "Венеція"</h1></div>
                     <div class="logo_pic">
@@ -29,7 +31,7 @@
         	<div class="price">
         		<h2>Прайс - лист</h2>
         		    <div class="wrapper_service">
-        	            <table>
+        	            <table class="table table-striped">
         	               <tr>
         	                   <td></td>
         	                   <td></td>
@@ -144,14 +146,18 @@
         	                   <td>Зачіска від</td>
         	                   <td>200</td>
         	               </tr>
-        	           </div>
         	       </table>
-        	   </div>
+        	       </div>
         	   </div>
             </main>
-        <footer>
-            <p>©2016 Салон краси "Венеція"</p>
-            <p><a href="https://www.facebook.com/olena.zhdan">Olena Usyk</a></p>
-        </footer
+        <footer class="clearfix">
+                <div class="clear">
+                    <p>©2016 Салон краси "Венеція"</p>
+                    <p><a href="https://www.facebook.com/olena.zhdan">Olena Usyk</a></p>
+                </div>
+            </footer>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
 </html>
