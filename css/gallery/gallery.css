@@ -6,9 +6,8 @@ h2 {
 .row {
     width: 80%;
 }
-.img_rounded {
- width: 150px;
- height: 200px;
+.container {
+    padding: 0 10px;
 }
 .clearfix:before,
 .clearfix:after {
