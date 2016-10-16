@@ -1,13 +1,16 @@
-
+.price {
+    width: 100%;
+}
 .price {
     border: 1px solid grey;
     float: left;
 }
 .wrapper_service {
-    padding: 10px 250px;
-    text-align: left;
+    padding-top: 10px;
+    padding-left: 100px;
     line-height: 2.5em;
     font-size: 20px;
+    text-align: left;
 }
 h2 {
     margin-top: 50px;
@@ -17,4 +20,7 @@ h2 {
 }
 .service {
     background-color: #DCD0C0;
+}
+.clear {
+    clear: both;
 }

@@ -10,8 +10,7 @@
         <link rel="stylesheet" href="css/main.css" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet"/>
     </head>
-    <body>
-        <div class="container col-md-auto col-sm-auto col-lg-auto">
+    <body class="wrapper">
             <header class="mainheader">
                 <nav class="header_nav">
                     <ul class="clearfix">
@@ -24,10 +23,10 @@
                     <div class="logo">
                         <h1>Салон краси "Венеція"</h1></div>
                     <div class="logo_pic">
-                        <img src="images/logo.jpg" alt="logo" width="800"></div>                 
+                        <img src="images/logo.jpg" class="img-responsive" alt="logo" width="800"></div>              
                 </div>
             </header>
-                <main class="clearfix">
+                <main>
                     <div class="main_section">
                         <h2>Про нас</h2>
                             <p>Салон краси ”Венеція” - один із найкращих салонів у Львові. 
@@ -44,36 +43,38 @@
                             <h3>Години роботи</h3>
                                 <p>Понеділок - субота: 10:00 - 19:00</p>
                                 <p>Неділя - вихідний день</p>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.0590042703247!2d24.029386715844332!3d49.841348838945535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7b418d15777835ae!2z0KnQvtGB0Ywg0YbRltC60LDQstC1!5e0!3m2!1suk!2sua!4v1476530481784" 
+                                
+                            <div class="map">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.0590042703247!2d24.029386715844332!3d49.841348838945535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7b418d15777835ae!2z0KnQvtGB0Ywg0YbRltC60LDQstC1!5e0!3m2!1suk!2sua!4v1476530481784" 
                                 width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
                         </div>
                         <div class="form">
                         <form>
-                            <fieldset class="form">
+                            <fieldset class="fieldset">
                                 <legend>Напишіть нам!</legend>
                                     <p>Ім'я</p>
-                                        <input type="text" name="name" required/><br>
-                                    <p>Прізвище</p>
-                                        <input type="text" name="surname" required/><br>
-                                    <p>Контактний номер</p>
-                                        <input type="tel" name="telephone" required/><br>
+                                        <input type="text" id="name" required/><br>
+                                    <p>Електронна адреса</p>
+                                        <input type="email" id="email" required/><br>
+                                    <p>Контактний телефон</p>
+                                        <input type="tel" id="telephone" required/><br>
                                     <p>Ваше повідомлення</p>
                                         <textarea name="message" id="message"></textarea>
                                         <br>
-                                        <input type="submit" value="Відправити"/><br>
+                                        <input type="submit" value="Відправити" class="grow"/><br>
                             </fieldset>
                         </form>
                     </div>
                 </div>
         </main>
-            <footer class="clearfix">
-                <div class="clear">
+            <footer>
                     <p>©2016 Салон краси "Венеція"</p>
                     <p><a href="https://www.facebook.com/olena.zhdan">Olena Usyk</a></p>
-                </div>
             </footer>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="javascript/form.js"></script>
     </body>
 </html>

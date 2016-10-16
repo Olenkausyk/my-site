@@ -2,14 +2,22 @@ body {
     font-family: 'Jura', sans-serif;
     font-weight: bold;
     color: #373737;
-    background-color: #F4F4F4; 
+    background-color: #F4F4F4;
+
 }
-.container {
+.wrapper {
     max-width: 100%;
     margin: 0 auto;
     text-align: center;
     background: white;
-    opacity: 0.8;
+    opacity: 0.9;
+}
+.main_header {
+    width: 100%;
+}
+.header_nav {
+    display: flex;
+    width: 100%;
 }
 ul {
     margin: 0 auto;
@@ -29,7 +37,6 @@ li {
 #logo {
     width: 100%;
     position: relative;
-    float: left;
     border: none;
 }
 .logo {
