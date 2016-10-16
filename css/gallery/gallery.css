@@ -3,8 +3,12 @@ h2 {
     color: #C0B283;
     font-weight: bold;
 }
+.row {
+    width: 80%;
+}
 .img_rounded {
- padding: 20px;   
+ width: 150px;
+ height: 200px;
 }
 .clearfix:before,
 .clearfix:after {
