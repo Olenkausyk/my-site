@@ -6,8 +6,9 @@ body {
 
 }
 .wrapper {
-    max-width: 100%;
+    max-width: 80%;
     margin: 0 auto;
+    padding: 0 10px;
     text-align: center;
     background: white;
     opacity: 0.9;
@@ -21,7 +22,7 @@ body {
 }
 ul {
     margin: 0 auto;
-    padding: 0px;
+    padding: 15px 0;
     width: 600px;
 }
 .menu {
@@ -30,9 +31,16 @@ ul {
     font-size: 25px;
 }
 li {
-    list-style-type: none;
     float: left;
     width: 200px;
+    text-decoration: none;
+    list-style-type: none;
+}
+li a:hover {
+    background-color:#C0B283;
+    text-decoration: none;
+    border-radius: 20px;
+    color: grey;
 }
 #logo {
     width: 100%;
@@ -58,7 +66,6 @@ li {
 .clearfix:after {
     clear: both;
 }
-
 /**
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
@@ -69,4 +76,9 @@ li {
 .clear {
     clear: both;
 }
-
+h2 {
+    color: #C0B283;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px 0;
+}
