@@ -37,10 +37,8 @@ li {
     list-style-type: none;
 }
 li a:hover {
-    background-color:#C0B283;
     text-decoration: none;
-    border-radius: 20px;
-    color: grey;
+    font-size: 26px;
 }
 #logo {
     width: 100%;
