@@ -21,7 +21,18 @@
 }
 .address_shedule {
     padding: 20px;
-} 
+}
+.main_section {
+    width: 100%;
+}
+.map-responsive{
+    overflow: hidden;
+    padding: 15px;
+    position: relative;
+}
+.map-responsive iframe{
+    width: 80%;
+}
 input[type=submit]{
     margin-top: 20px;
     padding: 15px;
@@ -47,9 +58,3 @@ input[type=submit]{
 input[type=text], input[type=email], input[type=tel], textarea {
     width: 40%;
 }  
-.main_section {
-    width: 100%;
-}
-.map {
-    width: 100%;
-}

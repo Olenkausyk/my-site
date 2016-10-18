@@ -2,13 +2,12 @@ body {
     font-family: 'Jura', sans-serif;
     font-weight: bold;
     color: #373737;
-    background-color: #F4F4F4;
 
 }
 .wrapper {
-    max-width: 80%;
+    width: 100%;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 0 10px;
     text-align: center;
     background: white;
     opacity: 0.9;
@@ -29,6 +28,7 @@ ul {
     text-decoration: none;
     color: black;
     font-size: 25px;
+    width: 100%;
 }
 li {
     float: left;
@@ -82,3 +82,8 @@ h2 {
     font-weight: bold;
     padding: 15px 0;
 }
+footer {
+    background-color: inherit;
+}
+
+
